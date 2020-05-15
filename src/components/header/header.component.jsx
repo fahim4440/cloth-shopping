@@ -39,7 +39,7 @@ const Header = ({ currentUser, hidden }) => (
     </div>
 )
 
-const mapStatetoProps = ({user: {currentUser}, hidden: {hidden}}) => ({
+const mapStatetoProps = ({user: {currentUser}, cart: {hidden}}) => ({
     currentUser,
     hidden
 })
